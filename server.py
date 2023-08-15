@@ -22,6 +22,7 @@ def subtract():
     second = data.get('second', 0)
     result = first - second
     response = {'result': result}
+    #This is to return the json file
     return jsonify(response), 200  # Return JSON response with result and status code 200
 
 if _name_ == '_main_':
